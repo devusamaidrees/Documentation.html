@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+}
+header nav{
+    display: flex;
+}
+header nav ul{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    padding: 0 25px;
+}
+header nav ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    margin: 0 10px;
+}
+.Search input{
+        width: 300px;
+        height: 30px;
+        padding: 0 15px;
+        border-radius: 10px;
+}
+.Search button{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 8px 11px;
+    margin: 0px 25px;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+}
+.Search button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.heading{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 70vh;
+    width: 85vw;
+    display: flex;
+    border: 2px black;
+    border-style: solid;
+}
+.box1 ul{
+    height: 70vh;
+    width: 15vw;
+    background-color: rgb(209, 208, 208);
+    border: 2px black;
+    border-style: none solid none none;
+}
+.box1 ul li{
+    padding: 20px 0 20px 35px;
+    list-style: none;
+    border: 2px black;
+    border-style: none none solid none;
+}
+.box1 ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+.box2{
+    width: 70vw;
+    margin: 40px 40px;
+    overflow: scroll;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table th{
+    border: 1px solid black;
+    padding: 4px;
+}
+table td{
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 4px;
+}
