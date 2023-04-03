@@ -16,4 +16,3 @@ The main content of the website is divided into different sections. Here is a li
 #### Variables
 #### Declaring Variables
 #### Variables Scope
-To access any of these sections, simply click on the corresponding link in the left-hand menu
